@@ -1,0 +1,55 @@
+.navbar-brand {
+    font-size: 3em;
+    color: #6151bb;
+}
+#our-menu {
+    font-size: 45px;
+    padding: 20px;
+}
+.menu{
+    height: 420px;
+    background-color: white;
+    border: 1px black solid; 
+    border-radius: 6px;
+    overflow: hidden;
+}
+#title {
+    font-weight: bold;
+    font-size: 24px;
+}
+/****Medium Devices****/
+@media (min-width: 1200px){
+    .navbar-toggler{
+        visibility: hidden;
+    }
+    .row a {
+        visibility: hidden;
+    }
+}
+/****Small Devices****/
+@media (min-width: 767px) and (max-width: 1199px){
+    .navbar-toggler{
+        visibility: hidden;
+    }
+    .row a {
+        visibility: hidden;
+    }
+}
+/****Extra Small Devices****/
+@media (min-width:500px) and (max-width: 766px) {
+    #nav-list {
+        margin-top: 10px;
+      }
+    #nav-list a {
+        color: #ec6060;
+        text-align: center;
+      }
+    #nav-list a:hover{
+        background: #a79f9f;
+      }
+
+    .menu {
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
